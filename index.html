@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="rates.js"></script>
+    <script defer src="converter.js"></script>
+</head>
+<body class="row justify-content-center">
+
+<div>
+    <div class="col-12 ">
+        <h1>Currency counter</h1>
+    </div>
+
+    <div class="col-12 text-center">
+    <div class="mt-5">
+        <input id="amount" type="number" placeholder="enter the amount">
+
+        <select name="fromCurrency" id="fromCurrency">
+            <option disabled selected>from currency</option>
+        </select>
+        <select name="toCurrency" id="toCurrency">
+            <option disabled selected>to currency</option>
+        </select>
+    </div>
+    </div>
+
+    <div class="col-12 mt-2 text-center" >
+        <button id="convert">Convert</button>
+    </div>
+
+    <div class="col-12 mt-4 text-center">
+        <h3 id="result">Result: </h3>
+    </div>
+
+</div>
+
+</body>
+</html>
